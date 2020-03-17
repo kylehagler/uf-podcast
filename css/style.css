@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Gentona-ExtraLight";
+  src: url("../fonts/Gentona-ExtraLight.otf") format("opentype")
+}
+
+@font-face {
   font-family: "Gentona-Bold";
   src: url("../fonts/Gentona-Bold.otf") format("opentype")
 }
@@ -29,6 +34,11 @@ body {
 	color: #fff;
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+strong {
+	font-weight: normal;
+	font-family: 'Gentona-Bold';
 }
 
 h1 {
@@ -91,6 +101,8 @@ h3.med {
 .intro h2 {
 	margin: 12px 0 30px;
 	max-width: 370px;
+	font-family: 'Gentona-ExtraLight';
+	font-weight: normal;
 }
 
 .intro img {
@@ -454,9 +466,15 @@ a.toggle {
 		padding-top: 60px;
 	}
 	
+	.b-border-thick {
+		padding-bottom: 35px;
+	}
+	
 	.intro h2 {
 		max-width: 100%;
-		margin-top: 0;
+		margin-top: 30px;
+		font-size: 21px;
+		line-height: 30px;
 	}
 	
 	.intro .service-list img, .ready .service-list img {
@@ -467,6 +485,7 @@ a.toggle {
 	
 	.service-list {
 		display: block;
+		margin-bottom: 60px;
 	}
 	
 	.service-list li {
