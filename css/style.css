@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Gentona-Medium";
+  src: url("../fonts/Gentona-Medium.otf") format("opentype")
+}
+
+@font-face {
   font-family: "Gentona-Bold";
   src: url("../fonts/Gentona-Bold.otf") format("opentype")
 }
