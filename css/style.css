@@ -481,6 +481,7 @@ a.toggle {
 	.intro .service-list img, .ready .service-list img {
 		display: inline-block;
 		width: 18px;
+		height: 18px;
 		margin: 0 0 0 5px;
 	}
 	
