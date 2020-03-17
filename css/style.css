@@ -441,6 +441,11 @@ a.toggle {
 		padding-right: 30px;
 	}
 	
+	h1 {
+		font-size: 46px;
+		line-height: 55px;
+	}
+	
 	.intro {
 		padding: 0px;
 	}
